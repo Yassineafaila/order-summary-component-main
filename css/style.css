@@ -215,9 +215,21 @@ body {
     .btn-success{
         width: 280px;
     }
+    .attribution {
+        display: none;
+    }
 }
 @media screen and (min-width:769px){
     .container{
         width: 400px;
     }
+}
+.attribution{
+    margin: 30px auto;
+}
+.attribution a{
+    text-decoration: none;
+    color: var(--Bright-blue);
+    font-size: 1rem;
+    max-width: 100%;
 }
